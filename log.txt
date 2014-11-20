@@ -1,15 +1,4 @@
-Nov 18, 2014 5:19:42 PM util.FileHandler loadFirstLine
-FINE: Starting loadFirstLine
-Nov 18, 2014 5:19:45 PM util.FileHandler loadFirstLine
-SEVERE: Could not load file.
-java.io.FileNotFoundException: something.txt (No such file or directory)
-	at java.io.FileInputStream.open(Native Method)
-	at java.io.FileInputStream.<init>(FileInputStream.java:131)
-	at java.io.FileInputStream.<init>(FileInputStream.java:87)
-	at java.io.FileReader.<init>(FileReader.java:58)
-	at util.FileHandler.loadFirstLine(FileHandler.java:23)
-	at bll.MyApp.run(MyApp.java:38)
-	at bll.MyApp.main(MyApp.java:27)
-
-Nov 18, 2014 5:19:45 PM bll.MyApp run
+Nov 19, 2014 10:46:39 AM bll.MyApp run
+FINE: Starting program
+Nov 19, 2014 10:46:39 AM bll.MyApp run
 SEVERE: Could not read first line
